@@ -41,7 +41,7 @@ const HeaderThree = () => {
                         </a>
                       </li>
                       <li>
-                        <a href="/Mostafa_Hassan_Resume.pdf" target="_blank" rel="noreferrer">
+                        <a href={process.env.PUBLIC_URL + "/Mostafa_Hassan_Resume.pdf"} target="_blank" rel="noreferrer">
                           <FaFilePdf />
                         </a>
                       </li>
