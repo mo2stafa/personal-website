@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "thumb": "/images/skills/js.png",
+    "title": "JavaScript",
+    "experience": "0 Years"
+  },
+  {
+    "id": 2,
+    "thumb": "/images/skills/react.png",
+    "title": "React",
+    "experience": "0 Years"
+  },
+  {
+    "id": 3,
+    "thumb": "/images/skills/html.png",
+    "title": "HTML",
+    "experience": "0 Years"
+  },
+  {
+    "id": 4,
+    "thumb": "/images/skills/css.png",
+    "title": "CSS",
+    "experience": "0 Years"
+  },
+  {
+    "id": 5,
+    "thumb": "/images/skills/redux.png",
+    "title": "Redux",
+    "experience": "0 Year"
+  },
+  {
+    "id": 6,
+    "thumb": "/images/skills/node.png",
+    "title": "Node",
+    "experience": "0 Years"
+  },
+  {
+    "id": 7,
+    "thumb": "/images/skills/git.png",
+    "title": "Git",
+    "experience": "0 Years"
+  },
+  {
+    "id": 8,
+    "thumb": "/images/skills/figma.png",
+    "title": "Figma",
+    "experience": "0 Years"
+  }
+]

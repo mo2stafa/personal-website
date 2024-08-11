@@ -1,0 +1,16 @@
+[
+  {
+    "id": 1,
+    "image": "/images/project/i Hear.png",
+    "title": "I Hear",
+    "category": ["Mobile Application"],
+    "techStack": ["python", "Flask", "AWS Cloud", "React Native", "JavaScript"],
+    "excerpt": "mobile app for the hearing impaired, utilizing AI and smartphone technology to convert environmental sounds into visual alerts, and enhancing sound recognition for deaf individuals.",
+    "github": "https://github.com/mostafaeln/I-Hear",
+    "demo": "https://drive.google.com/file/d/1T-3LYNVL5XqSWefpPlLnHLqJlNxJylP5/view?usp=drive_link"
+  }
+  
+
+
+
+]
