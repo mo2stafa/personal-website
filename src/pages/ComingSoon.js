@@ -15,7 +15,7 @@ const ComingSoon = () => {
               <div className="col-12">
                 <div className="site-logo">
                   <Link to={process.env.PUBLIC_URL + "/"} className="logo-light">
-                    <img src={process.env.PUBLIC_URL + "/images/Logo - light.png"} alt="Logo" />
+                    <img src={process.env.PUBLIC_URL + "/images/Logo - Light.png"} alt="Logo" />
                   </Link>
                   <Link to={process.env.PUBLIC_URL + "/"} className="logo-dark">
                     <img src={process.env.PUBLIC_URL + "/images/Logo - Dark.png"} alt="Logo" />
