@@ -1,8 +1,21 @@
 import React from "react";
 import { AnimationOnScroll } from "react-animation-on-scroll";
 import Tilty from "react-tilty";
+import { useState, useEffect } from "react";
+import { Blurhash } from "react-blurhash";
 
 const BannerThree = () => {
+  const [imageLoaded, setImageLoaded] = useState(false);
+
+  useEffect(() => {
+    const img = new Image();
+    img.onload = () => {
+      setImageLoaded(true);
+    }
+    img.src = process.env.PUBLIC_URL + "/images/banner/mostafa.png";
+  }, []);
+
+
   return (
     <div className="banner banner-style-3">
       <div className="container">
@@ -20,6 +33,7 @@ const BannerThree = () => {
                   <a href="https://github.com/mo2stafa/" className="axil-btn btn-fill-primary btn-large">
                     View My GitHub
                   </a>
+                  <a class="about-btn" href={process.env.PUBLIC_URL + "/about-me"}>About Me</a>
                 </div>
               </AnimationOnScroll>
             </div>
@@ -29,7 +43,15 @@ const BannerThree = () => {
               <div className="large-thumb">
                 <AnimationOnScroll animateIn="slideInUp" duration={1} animateOnce={true} delay={200}>
                   <Tilty perspective={2000} reset={false}>
-                    <img src={process.env.PUBLIC_URL + "/images/banner/mostafa.png"} alt="Shape" />
+                    {!imageLoaded && (<Blurhash
+                    hash="UHI#idTIDzov~bR*.AocDiofN4a$nps:DiWC"
+                    width={450}
+                    height={450}
+                    resolutionX={32}
+                    resolutionY={32}
+                    punch={1}
+                    />)}
+                    {imageLoaded && <img src={process.env.PUBLIC_URL + "/images/banner/mostafa.png"} alt="Mostafa Hassan" />}
                   </Tilty>
                 </AnimationOnScroll>
               </div>

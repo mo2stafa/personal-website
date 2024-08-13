@@ -11,6 +11,7 @@ import ProjectGridTwo from "./pages/ProjectGridTwo";
 import Projects from "./pages/Projects";
 
 // Pages
+import AboutMe from "./pages/AboutMe";
 import ErrorPage from "./pages/404";
 import ComingSoon from "./pages/ComingSoon";
 
