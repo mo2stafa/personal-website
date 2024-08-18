@@ -3,6 +3,8 @@ import { AnimationOnScroll } from "react-animation-on-scroll";
 import Tilty from "react-tilty";
 import { useState, useEffect } from "react";
 import { Blurhash } from "react-blurhash";
+import { Link } from "react-router-dom";
+
 
 const BannerThree = () => {
   const [imageLoaded, setImageLoaded] = useState(false);
@@ -33,7 +35,7 @@ const BannerThree = () => {
                   <a href="https://github.com/mo2stafa/" className="axil-btn btn-fill-primary btn-large">
                     View My GitHub
                   </a>
-                  <a class="about-btn" href={process.env.PUBLIC_URL + "/about-me"}>About Me</a>
+                  <Link class="about-btn" to={process.env.PUBLIC_URL + "/about-me"}>About Me</Link>
                 </div>
               </AnimationOnScroll>
             </div>
